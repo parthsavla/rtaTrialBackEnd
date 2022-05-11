@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif,Source Sans Pro, sans-serif;
+  max-height: 95%;
+  font-size: 12pt;
+  line-height: 1.5;
+  background: #F2F2F2;
+  color: #323232;
+}
+
+/* Important. */
+.container {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  max-width: 960px;
+  max-height: 100%;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+}
+
+/* Important. */
+section {
+  display: -moz-grid-line;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: none;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+p {
+  font-size: 15pt;
+}
+
+/***********************************
+* =Main Info
+***********************************/
+
+img.avatar {
+  width: 170px;
+  float:right;
+}
+
+/*For the signature*/
+img.profsign {
+  width: 100px;
+  float:left;
+  margin: 0pt;
+  padding: 0pt;
+}
+
+.my-name {
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.my-title {
+  font-size: 24px;
+  font-weight: 200;
+  color: #000000;
+}
+
+
+/***********************************
+* Resizing for other media devices.
+***********************************/
+@media only screen and (max-width : 768px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+
+  .links, .job-title-container {
+    flex-direction: column;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .interests-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .interests-container img {
+    margin-right: 32px;
+    margin-bottom: 16px;
+  }
+}
+
+

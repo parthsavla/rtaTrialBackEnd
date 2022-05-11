@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Official Letter</title>
+  <link rel="stylesheet" href="/home/seba-researchapp/Reasearch App/researchapp/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <section>
+      <div>
+        <!--
+        <div><img src="/media/revgeek/Data/seba_data/desktop_files/lost+found/personal_projs/Reasearch App/researchapp/static/mail_pics/usiu_mail1.png" alt="avatar" class="avatar"></div>
+         -->
+        <div><img src="/home/seba-researchapp/Reasearch App/researchapp/static/mail_pics/usiu_mail1.png" alt="avatar" class="avatar"></div>
+      </div>
+    </section>
+    <section>
+      <br>
+      <br>
+      <div>
+        <div class="my-name"><p><b>TO WHOM IT MAY CONCERN.</b></p></div>
+        <br>
+        <br>
+        <div class="my-title"><small>{{date}} </small> </div>
+        </div> <!-- end links -->
+        <div>
+          <p> Dear Sir/Madam </p>
+         <p style="text-decoration: underline"><b>PERMISSION TO CONDUCT THE RESEARCH - NAME: {{User_name.firstname.upper()}} {{User_name.secondname.upper()}}, STUDENT ID. NO. {{User_name.sch_id}}</b></p>
+        </div>
+        <div>
+            <p>The bearer of this letter is a student of United States International University (USIU) - Africa
+                persuing a <b>{{user_details.major[7:-2]}}</b>.</p>
+            <p>As part of the program, the student is required to undertake a dissertation on
+               <strong>{{user_details.title}}</strong>  which requires him to collect data.</p>
+            <p>Please note that information given will be treated with utmost confidentiality and will only be
+                used for academic purposes.</p>
+            <p>Kindly assist the student get the appropriate data and should you have any queries contact the
+                undersigned.
+            </p>
+        </div>
+        <p>Yours Sincerely,</p><br>
+        <div>
+            <div><img src="/home/seba-researchapp/Reasearch App/researchapp/static/mail_pics/sign.png" alt="avatar" class="profsign"></div>
+        </div>
+    </section>
+    <section>
+        <div>
+          <br>
+          <small><b>Prof. Amos Njuguna,</b></small><br>
+          <small><b>Dean-School of Graduate Studies, Research and Extension</b></small><br>
+          <small><b>Tel: 730 116 442</b></small><br>
+          <small><b>Email: amnjuguna@usiu.ac.ke</b></small><br>
+        </div>
+        <hr>
+    </section>
+    <section>
+        <div>
+            <footer style="text-align: center;">
+                P.O Box 14634-00800 Nairobi, Kenya | tel:254-730-116-000 | info@usiu.ac.ke
+            </footer>
+        </div>
+    </section>
+  </div>
+</body>
+</html>

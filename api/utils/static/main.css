@@ -1,0 +1,159 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.bg-steel {
+  background-color: #213D84;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+.navbar-brand {
+  padding-left: 50px;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/*Advert section of the page.*/
+.col-md-4 {
+  background: #ffffe6;
+  border-radius: 25px;
+}
+
+/*logo image */
+/* ~~~~~~~~~~~*/
+.logo #logo {
+  display: inline-block;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+}
+
+#wrapper {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px dashed #000000;
+  position: sticky;
+  position: -webkit-sticky;
+  display: -webkit-sticky;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  top: -1;
+  
+}
+
+#header > div {
+  max-width: 500px;
+  border-bottom: 1px solid black;
+}
+
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+/*About Page*/
+.about {
+ background-color: #e6e600;
+ border-radius: 25px;
+ padding: 20px;
+}
+.disclaimer {
+  background-color: #fffbce;
+  border-radius: 25px;
+  padding: 20px;
+}
+/*Images*/
+img.avatar1 {
+  width: 150px;
+  float:left;
+  position: sticky;
+  padding-top: 35px;
+  padding-left: 10px;
+  position: -webkit-sticky; /* Safari */
+  top:10;
+}
+
+.page-footer {
+  z-index: -1;
+}
+
+/***********************************
+* Resizing for other media devices.
+***********************************/
+@media only screen and (max-width : 768px) {
+  /*We do stuff here. */
+}
